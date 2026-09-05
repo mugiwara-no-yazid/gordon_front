@@ -1,4 +1,5 @@
-import { useState, useEffect, useRef, ReactElement } from "react";
+import { useState, useEffect, useRef } from "react";
+import type { ReactElement } from "react";
 import { Link } from "react-router-dom";
 
 // ─── Icônes SVG dorées ────────────────────────────────────────────────
