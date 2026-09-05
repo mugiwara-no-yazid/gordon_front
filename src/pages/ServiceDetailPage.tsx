@@ -82,7 +82,6 @@ export default function ServiceDetailPage() {
   const currentIndex = SERVICES_DATA.findIndex((s) => s.slug === slug);
   const prev = SERVICES_DATA[(currentIndex - 1 + SERVICES_DATA.length) % SERVICES_DATA.length];
   const next = SERVICES_DATA[(currentIndex + 1) % SERVICES_DATA.length];
-  const icon = ICONS[service.slug];
 
   return (
     <>
