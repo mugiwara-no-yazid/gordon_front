@@ -2,7 +2,7 @@ import { useParams, Navigate, Link } from "react-router-dom";
 import { SERVICES_MAP, SERVICES_DATA } from "../data/mock";
 
 // ─── Icônes SVG (une par slug) ────────────────────────────────────────
-// Pour ajouter un service : ajouter l'icône ici avec le même slug comme clé
+/* Pour ajouter un service : ajouter l'icône ici avec le même slug comme clé
 const ICONS: Record<string, React.ReactNode> = {
   immobilier: (
     <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.4" strokeLinecap="round" strokeLinejoin="round">
@@ -71,7 +71,7 @@ const ICONS: Record<string, React.ReactNode> = {
     </svg>
   ),
 };
-
+*/
 // ─── Page Détail Service ──────────────────────────────────────────────
 export default function ServiceDetailPage() {
   const { slug } = useParams<{ slug: string }>();
