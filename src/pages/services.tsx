@@ -85,7 +85,6 @@ function ServiceCard({
   reverse: boolean;
   logo:string;
 }) {
-  const icon = ICONS[slug];
   const prestationTitles = prestations.map((p) => p.titre);
 
   return (
