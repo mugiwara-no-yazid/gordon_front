@@ -39,7 +39,7 @@ function StatItem({
   end, prefix, suffix, label, Icon, started,
 }: {
   end: number; prefix: string; suffix: string;
-  label: string; Icon: () => JSX.Element; started: boolean;
+  label: string; Icon: () => ReactElement; started: boolean;
 }) {
   const [count, setCount] = useState(0);
 
