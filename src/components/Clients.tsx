@@ -1,5 +1,4 @@
-import { useEffect, useRef } from "react";
-
+import { useEffect } from "react";
 // ─── Données clients / partenaires ────────────────────────────────────
 const CLIENTS = [
   { name: "Total Energies",      abbr: "TE"  },
