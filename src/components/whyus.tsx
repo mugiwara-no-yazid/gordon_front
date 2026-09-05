@@ -1,4 +1,5 @@
 // ─── Icônes SVG ───────────────────────────────────────────────────────
+import type { ReactElement } from "react";
 function IconExpertise() {
   return (
     <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round">
@@ -95,12 +96,10 @@ function ArgumentCard({
   Icon,
   title,
   description,
-  index,
 }: {
-  Icon: () => JSX.Element;
+  Icon: () => ReactElement;
   title: string;
   description: string;
-  index: number;
 }) {
   return (
     <div
