@@ -295,7 +295,7 @@ export default function WhyUs() {
             {/* ── Colonne droite : grille arguments ── */}
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               {ARGUMENTS.map((arg, i) => (
-                <ArgumentCard key={arg.title} {...arg} index={i} />
+                <ArgumentCard key={arg.title} {...arg} />
               ))}
             </div>
           </div>
