@@ -217,7 +217,7 @@ export default function ServiceDetailPage() {
               <div style={{ background: "#FFFFFF", border: "1px solid rgba(200,167,94,0.12)" }}>
                 <div className="px-6 py-4" style={{ background: service.color, borderBottom: "2px solid #C8A75E" }}>
                   <h3 style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "13px", fontWeight: 700, color: "#FFFFFF", letterSpacing: "0.1em", textTransform: "uppercase" }}>
-                    Pourquoi Gordon Services ?
+                    Pourquoi Gordon Service ?
                   </h3>
                 </div>
                 <ul className="flex flex-col px-6 py-5 gap-3">
